@@ -1,5 +1,6 @@
 ### Steps to reproduce
 1. `git clone https://github.com/awshaichen/PyTorch-YOLOv3.git`
+1. `cd PyTorch-YOLOv3`
 1. `( cd weights/ && bash download_weights.sh )` (run with parentheses; they are for downloading to the right folder without changing the current path)
 1. `python detect_trace_noyl.py`
 
